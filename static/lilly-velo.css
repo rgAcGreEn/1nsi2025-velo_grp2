@@ -1,0 +1,15 @@
+body {
+	margin:0;
+}
+
+#header {
+	background-color: #213f77;
+}
+
+h1 {
+	margin: 0 auto;
+	width: fit-content;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}

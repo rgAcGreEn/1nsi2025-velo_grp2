@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/inscription.css">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<title>Inscription</title>
+</head>
+<body>
+	<div id="header"><h1>Projet vélo</h1></div>
+	<a href="/" id="retour">
+		Page d'accueil
+	</a><br>
+	<a href="/connexion" id="connexion">
+		J'ai déjà un compte
+	</a>
+	<h2>Inscription</h2>
+	
+	<form method="POST" action="/traitement">
+		<div id="content"><label for="email">Adresse e-mail :</label>
+		<input type="text" id="email" name="adresse_mail" value="{{Adresse}}"></div><br>
+		<div id="content"><label for="nom">Nom d'utilisateur :</label>
+		<input type="text" id="nom" name="nom_d_utilisateur" value="{{Nom}}"></div><br>
+		<div id="content"><label for="mdp">Mot de passe :</label>
+		<input type="password" id="mdp" name="mot_de_passe"></div><br>
+		<div id="content"><label for="c_mdp">Confirmation du mot de passe :</label>
+		<input type="password" id="c_mdp" name="confirmation"></div><br>
+		<div id="content"><input type="submit" value="S'inscrire"></div>
+
+	</form>
+</body>
+</html>

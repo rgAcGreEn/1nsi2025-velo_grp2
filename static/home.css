@@ -1,0 +1,29 @@
+#login {
+	float: right;
+	text-decoration: none;
+	background-color: #006dcc;
+	margin: 10px;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%) translateY(-55px);
+}
+
+#content > * {
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+}
+
+canvas {
+	position: relative;
+	top: 100%;
+	left: 0;
+	transform: translateY(-100%) translateY(-55px);
+	float: left;
+}

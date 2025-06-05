@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page d'utilisateur</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" type="text/css" href="static/utilisateur.css">
+</head>
+<body>
+    <div id="header"><h1>Projet vélo</h1></div>
+    <h2>Page utilisateur</h2>
+    <form method="POST" action="/utilisateur">
+        <div id="content"><label for="user_km">Déclarer vos km :</label></div>
+        <input type="number" id="user_km_entered" name="enter_user_km" value="{{Km}}"><div id="content"><input type="submit" value="Envoyer"></div><br>
+    </form>
+
+    <p>Total cette semaine : {{total_hebdo}}</p>
+    <p>Moyenne cette semaine : {{moyenne_hebdo}} par jour</p>
+    <p>Total cette année : {{total_annuel}}</p>
+    <p>Moyenne cette année : {{moyenne_annuelle}} par jour</p>
+</body>
+</html>

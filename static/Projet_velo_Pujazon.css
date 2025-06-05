@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+
+#header {
+	background-color: #006dcc;
+}
+
+h1 {
+	margin: 0 auto;
+	width: fit-content;
+	padding: 5px;
+	color: white;
+	font-family: Open Sans, sans-serif;
+	font-size: 50px;
+}
+
+h2 {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: fit-content;
+	text-align: center;
+	font-family: Open Sans, sans-serif;
+	font-size: 30px;
+}
+
+#content {
+	margin: auto;
+	width: fit-content;
+}

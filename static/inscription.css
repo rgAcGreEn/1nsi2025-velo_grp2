@@ -1,0 +1,14 @@
+h2 {
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: fit-content;
+	text-align: center;
+	font-family: Open Sans, sans-serif;
+	font-size: 30px;
+}
+
+#content {
+	margin: auto;
+	width: fit-content;
+} 

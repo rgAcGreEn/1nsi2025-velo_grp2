@@ -1,0 +1,19 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+}
+
+#header {
+	background-color: #006dcc;
+}
+
+h1 {
+	margin: 0 auto;
+	width: fit-content;
+	padding: 5px;
+	color: white;
+}
